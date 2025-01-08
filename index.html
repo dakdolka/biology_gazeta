@@ -1,13 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Газета по биологии</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 onclick="alert('hello')">hello</h1>
 
-    <link rel="script" href="main.js">
+<header>
+    <div class="menu">
+        <input type="checkbox" id="menu-toggle" style="display:none;">
+        <div class="dropdown">
+            <button class="menu-button" type="button" style="border: none; background: none; padding: 0;"><b>...</b></button>
+            <div class="dropdown-content">
+                <a href="#section1">Раздел 1</a>
+                <a href="#section2">Раздел 2</a>
+                <a href="#section3">Раздел 3</a>
+                <a href="#section4">Раздел 4</a>
+                <a href="#section5">Раздел 5</a>
+                <a href="#section6">Раздел 6</a>
+            </div>
+        </div>
+        <button class="subscribe" style="display: flex; justify-content: right;">Подписаться на рассылку</button>
+    </div>
+</header>
+
+<div class="content">
+    <div class="section" id="section1">
+        <h2>Раздел 1: Основная информация</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Иллюстрация">
+    </div>
+
+    <div class="section" id="section2">
+        <h2>Раздел 2: Криминальные хроники: "Суд над бесполым размножением"</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Иллюстрация">
+    </div>
+
+    <div class="section" id="section3">
+        <h2>Раздел 3: Научлаб</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Иллюстрация">
+    </div>
+
+    <div class="section" id="section4">
+        <h2>Раздел 4: Интересные факты</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Иллюстрация">
+    </div>
+    
+    <div class="section" id="section5">
+        <h2>Раздел 5: Интервью с аксолотлем</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Иллюстрация">
+    </div>
+
+    <div class="section" id="section6">
+        <h2>Раздел 6: Вопросы по теме для читателей</h2>
+        <img src="https://via.placeholder.com/800x400" alt="Иллюстрация">
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <p>Газета по биологии - Все права защищены</p>
+        <a href="#">Политика конфиденциальности</a>
+    </div>
+</footer>
+
 </body>
 </html>
