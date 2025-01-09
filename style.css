@@ -89,6 +89,8 @@ header h1 {
     width: 150px;
     height: 30px;
     border: none;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .content {

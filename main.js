@@ -71,4 +71,31 @@ const questions = [
     }
   ];
 
-  
+  const button = document.getElementById('subscribe_button');
+  const button2 = document.getElementById('subscribe_to_mailing');
+
+  button.addEventListener('click', function() {
+    if (button.style.backgroundColor === 'white') {
+      button.style.backgroundColor = 'red';
+      button.style.color = "white";
+      this.textContent = "Подписаться";
+    }
+    else {
+      button.style.backgroundColor = 'white';
+      button.style.color = "red";
+      this.textContent = "Отписаться";
+    }
+  });
+
+  button2.addEventListener('click', function() {
+      if (button2.style.backgroundColor === 'grey') {
+        button2.style.backgroundColor = '#fff';
+        button2.style.color = "#2c6e49";
+        this.textContent = "Подписаться на рассылку";
+      }
+      else {
+        button2.style.backgroundColor = 'grey';
+        button2.style.color = "#fff";
+        this.textContent = "Отписаться от рассылки  ";
+      }
+  });
