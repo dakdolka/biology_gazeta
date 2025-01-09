@@ -18,6 +18,7 @@ header {
 
 header .menu {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -28,7 +29,6 @@ header .menu button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 1550px;
 }
 
 header .menu .nav-buttons {
@@ -49,8 +49,46 @@ header .menu .dots {
     font-size: 24px;
 }
 
+header h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.2em;
+    margin: 0;
+    margin-right: 70px;
+}
+
 #menu-toggle:checked + label + .nav-buttons {
     display: block;
+}
+
+.profile {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.profile img {
+    margin-top: 80px;
+    margin-left: 20px;
+    width: 80px;
+    height: auto;
+}
+
+.profile h1{
+    color: black;
+    margin-bottom: 0;
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+.profile button {
+    background-color: red;
+    margin-top: 80px;
+    margin-left: 10px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    border: none;
 }
 
 .content {
@@ -163,6 +201,13 @@ footer .container {
     background-color: #ddd;
     padding: 15px;
     border-radius: 8px;
+}
+
+.main_information {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.2em;
+    margin-left: 20px;
+    color: black;
 }
 
 .highlight {
