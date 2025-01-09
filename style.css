@@ -253,6 +253,10 @@ footer .container {
     margin-left: 20px;
 }
 
+.conclusion h2{
+    margin: 0;
+}
+
 .note {
     color: #25814d;
     font-weight: bold;
