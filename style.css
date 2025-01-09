@@ -1,13 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f9f4; /* мягкий зеленый фон */
-    color: #c3fac1;
+    background-color: #f0f9f4;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #25814d; /* темно-зеленый фон */
+    background-color: #25814d;
     color: white;
     padding: 10px 20px;
     position: fixed;
@@ -19,8 +18,17 @@ header {
 
 header .menu {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+}
+
+header .menu button {
+    background-color: #fff;
+    color: #25814d;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 1550px;
 }
 
 header .menu .nav-buttons {
@@ -46,16 +54,17 @@ header .menu .dots {
 }
 
 .content {
+    background-color: none;
     margin-top: 80px;
     padding: 20px;
+    margin: 0%;
 }
 
 .section {
-    background-color: #ffffff;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
 }
 
 .section img {
@@ -74,7 +83,14 @@ footer {
 footer a {
     color: white;
     text-decoration: none;
+
 }
+
+footer a:active, a:hover, a {
+  text-decoration: none;
+  color: #f4a261;
+}
+
 
 footer .container {
     display: flex;
@@ -138,4 +154,139 @@ footer .container {
 
 .dropdown:hover .menu-button {
     background-color: #45a049;
+}
+
+.section-content {
+    font-family: 'Caveat', sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #ddd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #F0A500;
+}
+
+.dialogue {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.2em;
+    margin-left: 20px;
+    color: #25814d;
+}
+
+.commentary {
+    font-size: 1.2em;
+    color: #25814d;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.highlight-green {
+    color: #5B8A4B;
+    font-weight: bold;
+}
+
+.example {
+    font-family: 'Verdana', cursive;
+    color: #5a5a5a;
+}
+
+.intro, .conclusion {
+    background-color: #d0e8e2;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.intro p, .conclusion p {
+    margin: 0;
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+
+.note {
+    color: #25814d;
+    font-weight: bold;
+}
+
+.section3, .section4, .section5 {
+    margin: 20px 0;
+    background-color: #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.2em;
+}
+.section3 , .section4, .section5 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.fact {
+    color: #25814d;
+    margin-bottom: 10px;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #d0e8e2;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.answers {
+    margin-bottom: 20px;
+}
+
+.answers button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #25814d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Rock Salt', cursive;
+    font-size: 1em;
+}
+
+.answers button:hover {
+    background-color: #1c6b3f;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result p {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.correct {
+    color: #4caf50;
+}
+
+.incorrect {
+    color: #f44336;
 }
