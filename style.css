@@ -89,6 +89,8 @@ header h1 {
     width: 150px;
     height: 30px;
     border: none;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .content {
@@ -251,6 +253,10 @@ footer .container {
     font-family: 'Rock Salt', cursive;
     font-size: 1.2em;
     margin-left: 20px;
+}
+
+.conclusion h2{
+    margin: 0;
 }
 
 .note {
