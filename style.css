@@ -214,28 +214,11 @@ footer .container {
     color: black;
 }
 
-.highlight {
-    font-weight: bold;
-    color: #cc5b47;
-}
-
 .dialogue {
     font-family: 'Rock Salt', cursive;
     font-size: 1.2em;
     margin-left: 20px;
     color: black;
-}
-
-.commentary {
-    font-size: 1.2em;
-    color: #cc5b47;
-    margin-top: 20px;
-    font-style: italic;
-}
-
-.highlight-red {
-    color: #cc5b47;
-    font-weight: bold;
 }
 
 .example {
@@ -263,12 +246,7 @@ footer .container {
     margin: 0;
 }
 
-.note {
-    color: #cc5b47;
-    font-weight: bold;
-}
-
-.section3, .section4, .section5 {
+.section1, .section2, .section3, .section4, .section5 {
     background-color: #c4d6baa8;
     padding: 15px;
     border-radius: 8px;
@@ -279,7 +257,7 @@ footer .container {
     margin: 20px auto;
 }
 
-.section3 , .section4, .section5 img {
+.section1, .section2, .section3, .section4, .section5 img {
     max-width: 90%;
     height: auto;
     display: block;
@@ -327,17 +305,6 @@ footer .container {
 
 .answers button:hover {
     background-color: #527540a8;
-}
-
-.result {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.result p {
-    font-family: 'Rock Salt', cursive;
-    font-size: 1.5em;
-    font-weight: bold;
 }
 
 .correct {
