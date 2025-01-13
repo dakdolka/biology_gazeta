@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f9f4;
+    background-color: #222629;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #25814d;
+    background-color:#cc5b47; 
     color: white;
     padding: 10px 20px;
     position: fixed;
@@ -24,7 +24,7 @@ header .menu {
 
 header .menu button {
     background-color: #fff;
-    color: #25814d;
+    color: #d0e8e2 ;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -37,7 +37,7 @@ header .menu .nav-buttons {
 
 header .menu .subscribe {
     background-color: #fff;
-    color: #2c6e49;
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -66,22 +66,18 @@ header h1 {
     align-items: center;
 }
 .profile img {
-    margin-top: 80px;
     margin-left: 20px;
     width: 80px;
     height: auto;
 }
 
 .profile h1{
-    color: black;
-    margin-bottom: 0;
-    margin-top: 80px;
+    color: #cc5b47;
     margin-left: 15px;
 }
 
 .profile button {
     background-color: red;
-    margin-top: 80px;
     margin-left: 10px;
     border-radius: 15px;
     color: white;
@@ -95,16 +91,21 @@ header h1 {
 
 .content {
     background-color: none;
-    margin-top: 80px;
+    width: 75%;
+    margin: 0 auto;
     padding: 20px;
-    margin: 0%;
+    margin-top: 80px;
+}
+
+.content h1, h2 {
+    text-align: center;
 }
 
 .section {
-    background-color: #fff;
+    background-color: #d1d1d1;
     border-radius: 15px;
-    padding: 15px;
-    margin: 10px;
+    padding: 20px;
+    margin: 20px 0;
 }
 
 .section img {
@@ -113,8 +114,9 @@ header h1 {
     border-radius: 8px;
 }
 
+
 footer {
-    background-color: #25814d;
+    background-color: #cc5b47;
     color: white;
     padding: 20px;
     text-align: center;
@@ -170,7 +172,7 @@ footer .container {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #c4d6baf8;
     min-width: 160px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -200,7 +202,7 @@ footer .container {
     font-family: 'Caveat', sans-serif;
     font-size: 1.2em;
     color: #333;
-    background-color: #ddd;
+    background-color: #6B6E70;
     padding: 15px;
     border-radius: 8px;
 }
@@ -214,25 +216,25 @@ footer .container {
 
 .highlight {
     font-weight: bold;
-    color: #F0A500;
+    color: #cc5b47;
 }
 
 .dialogue {
     font-family: 'Rock Salt', cursive;
     font-size: 1.2em;
     margin-left: 20px;
-    color: #25814d;
+    color: black;
 }
 
 .commentary {
     font-size: 1.2em;
-    color: #25814d;
+    color: #cc5b47;
     margin-top: 20px;
     font-style: italic;
 }
 
-.highlight-green {
-    color: #5B8A4B;
+.highlight-red {
+    color: #cc5b47;
     font-weight: bold;
 }
 
@@ -246,6 +248,8 @@ footer .container {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: 20px auto;
 }
 
 .intro p, .conclusion p {
@@ -260,21 +264,23 @@ footer .container {
 }
 
 .note {
-    color: #25814d;
+    color: #cc5b47;
     font-weight: bold;
 }
 
 .section3, .section4, .section5 {
-    margin: 20px 0;
-    background-color: #ddd;
+    background-color: #c4d6baa8;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: 'Rock Salt', cursive;
     font-size: 1.2em;
+    width: 90%;
+    margin: 20px auto;
 }
+
 .section3 , .section4, .section5 img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     display: block;
     margin: 20px auto;
@@ -282,7 +288,7 @@ footer .container {
 }
 
 .fact {
-    color: #25814d;
+    color: #cc5b47;
     margin-bottom: 10px;
 }
 
@@ -310,7 +316,7 @@ footer .container {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
-    background-color: #25814d;
+    background-color:#799c67a8;
     color: white;
     border: none;
     border-radius: 5px;
@@ -320,7 +326,7 @@ footer .container {
 }
 
 .answers button:hover {
-    background-color: #1c6b3f;
+    background-color: #527540a8;
 }
 
 .result {
