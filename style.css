@@ -5,6 +5,22 @@ body {
     padding: 0;
 }
 
+img {
+    position: relative;
+    left: 50%;
+    /* top: 0%; */
+    bottom: 0%;
+    max-width: 20vw;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  }
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
 header {
     background-color: #25814d;
     color: white;
