@@ -273,12 +273,17 @@ footer .container {
     margin: 20px auto;
 }
 
-.section1, .section2, .section3, .section4, .section5 img {
-    max-width: 90%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    border-radius: 8px;
+.section1 img, .section2 img, .section3 img, .section4 img, .section5 img {
+        position: relative;
+        left: 50%;
+        /* top: 0%; */
+        bottom: 0%;
+        max-width: 20vw;
+        max-height: 30vh;
+        height: auto;
+        border: 2px solid black;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .fact {
@@ -329,4 +334,19 @@ footer .container {
 
 .incorrect {
     color: #f44336;
+}
+
+.extra-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.extra-container div{
+    position: relative;
+    left: 0;
+    width: 60%
+}
+
+.extra-container img{
+    left: 5%;
 }
