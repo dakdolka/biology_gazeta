@@ -82,6 +82,7 @@ header h1 {
     align-items: center;
 }
 .profile img {
+    all: revert;
     margin-left: 20px;
     width: 80px;
     height: auto;
